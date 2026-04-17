@@ -11,9 +11,11 @@ This skill module provides comprehensive strategies for identifying, responding 
 3. [Eccentric Behaviors](#eccentric-behaviors)
 4. [PUA-Style Manipulation](#pua-style-manipulation)
 5. [General Coping Strategies](#general-coping-strategies)
-6. [Documentation & Evidence](#documentation--evidence)
-7. [When to Escalate](#when-to-escalate)
-8. [Self-Care & Recovery](#self-care--recovery)
+6. [Chat Platform Playbook (Slack, Teams, Feishu/Lark)](#chat-platform-playbook-slack-teams-feishulark)
+7. [Tactical Counterpunches (Scripts & Moves)](#tactical-counterpunches-scripts--moves)
+8. [Documentation & Evidence](#documentation--evidence)
+9. [When to Escalate](#when-to-escalate)
+10. [Self-Care & Recovery](#self-care--recovery)
 
 ---
 
@@ -212,6 +214,291 @@ When told "You're too sensitive":
 - Seek external perspective from trusted friends/family
 - Consider professional counseling
 - Join employee resource groups
+
+---
+
+## Chat Platform Playbook (Slack, Teams, Feishu/Lark)
+
+Modern workplace bullying increasingly happens in chat apps. Each platform has unique attack vectors and counter-moves.
+
+---
+
+### Slack-Specific Tactics & Counters
+
+#### Attack Patterns
+| Pattern | What It Looks Like | Why It's Harmful |
+|---|---|---|
+| **Public channel callout** | "Why hasn't @you delivered X yet?" in #general | Forces defensive reply in front of peers |
+| **Reaction pile-on** | Multiple 👀 🤔 😬 emojis on your message | Non-verbal shaming with no addressable content |
+| **Selective @mention omission** | Entire team tagged except you | Plausible-deniability exclusion |
+| **Thread burial** | Critical context hidden in collapsed sub-threads | Weaponizes Slack's UI to obscure facts |
+| **After-hours DM pressure** | DMs sent at 11 pm expecting instant reply | Violates boundaries, creates anxiety |
+| **Channel removal** | Quietly removed from channels you need | Cuts information access, hard to prove |
+| **Read-receipt silence** | DMs marked read, no reply for days | Deliberate psychological cold-shoulder |
+| **Huddle ambush** | Unscheduled Huddle invite during tense situation | No record, no prep time for target |
+
+#### Counterpunches
+**Against public callouts:**
+```
+"Great question for everyone's visibility. [Context]: I delivered X on [date] — 
+here's the thread: [link]. Happy to sync if anything's unclear."
+```
+Move the receipts into the same public channel immediately. Never go defensive in DM.
+
+**Against reaction pile-ons:**
+- Do not respond to emoji reactions at all; reply to the substantive message only
+- Pin your own follow-up clarification to the channel to control the record
+
+**Against @mention omission:**
+```
+"Adding myself here since this relates to my area — [your contribution]."
+```
+Self-tag without accusing; builds a paper trail that you were engaged.
+
+**Against after-hours DM pressure:**
+- Use Slack's **Scheduled Send** to draft replies immediately but deliver them in business hours
+- Set a Slack Status: "Heads-down / offline after 7 pm" — makes response delay visible and expected
+- If pressured: "I saw your message. I handle non-urgent items during working hours to stay focused."
+
+**Against channel removal:**
+- When you notice removal, send a direct email (not Slack) to the channel owner: "I noticed I was removed from #channel-name. Can you add me back or explain why?"
+- Creates an official record outside the platform where edits/deletions can't occur
+
+**Evidence capture:**
+- Export: `Slack > File menu > Export Workspace Data` (if admin) or screenshot + timestamp
+- For DMs: use **Ctrl+Shift+F** (search) to pull message history; export to personal email before any action
+- Note: Slack admins can delete messages — capture early
+
+---
+
+### Microsoft Teams-Specific Tactics & Counters
+
+#### Attack Patterns
+| Pattern | What It Looks Like | Why It's Harmful |
+|---|---|---|
+| **Chat edit/delete abuse** | Bully edits accusatory message after you respond to it | Makes your reply look unhinged without context |
+| **Meeting chat side-channel** | Side conversations in meeting chat during presentation | Distracts, undermines in real-time |
+| **Presence status weaponization** | "You were Away all afternoon" screenshot | Surveilling rather than managing |
+| **Recording misuse** | Meeting recorded, selectively clipped out of context | Creates false evidence |
+| **@team pile-on** | @Team mentioned to broadcast your mistake to all | Mass audience for targeted shaming |
+| **Mute without warning** | Host repeatedly mutes your mic in meetings | Silences you, hard to dispute in the moment |
+| **Pinned message manipulation** | Pins message that makes you look bad in team channel | Persistent, visible to newcomers |
+
+#### Counterpunches
+**Against chat edits/deletes:**
+- Screenshot every accusatory or ambiguous message **immediately** after it arrives
+- Teams shows "(edited)" indicator — reference it: "Your message was edited after I replied. My reply was responding to the original version."
+
+**Against presence surveillance:**
+- "My status reflects my focus mode, not my availability. I responded to your message within [X] minutes."
+- Set your status message to explain your work pattern: "Deep work 2–5 pm, async replies after"
+
+**Against recording misuse:**
+- At meeting start: "I'd like to note for the record: I consent to this recording being used only for team reference, not selective excerpts."
+- Request the full recording file via your IT/admin if a clip is used against you
+
+**Against @team callouts:**
+```
+"Thanks for flagging this @Team. Here's the full context so everyone has accurate info: 
+[facts]. Happy to discuss further in a dedicated meeting."
+```
+Never leave a @team callout unanswered — the silence looks like guilt.
+
+**Against being muted:**
+- After the meeting, send a follow-up in the meeting chat: "I had a point I wasn't able to raise when my mic was muted. [Your point here]."
+- CC the meeting notes to your manager if the muting was patterned behavior
+
+**Evidence capture:**
+- Teams stores chat history in your mailbox (Exchange): IT can export it even if messages are deleted by sender
+- Use **Teams > Chat > Export** (if available) or request eDiscovery export through IT/HR
+- Download meeting recordings to your personal device before the 60-day auto-expiry
+
+---
+
+### Feishu / Lark (飞书) Specific Tactics & Counters
+
+#### Attack Patterns
+| Pattern | What It Looks Like | Why It's Harmful |
+|---|---|---|
+| **已读 (read-receipt) weaponization** | "You read it 3 hours ago and didn't reply" | Creates obligation to respond instantly |
+| **Ding (紧急消息) abuse** | Urgent Ding alerts for non-urgent items | Conditions anxiety; trains dependency |
+| **Group chat public shaming** | Mistake called out in large group instead of DM | Audience effect maximizes humiliation |
+| **Doc comment pile-on** | Multiple colleagues commenting negatives on shared doc simultaneously | Orchestrated social pressure |
+| **Approval workflow stall** | Deliberately holds approval (审批) to block your work | Operational sabotage with deniability |
+| **OKR/KPI manipulation** | Quietly edits shared OKR docs to reframe your targets | Moves goalposts with a trail that's hard to see |
+| **Removed from group silently** | Kicked from group chats without notice or reason | Cuts off information access, causes confusion |
+| **@所有人 abuse** | Uses @all to publicly highlight your delays to whole org | Org-wide shame with one tap |
+
+#### Counterpunches
+**Against 已读 pressure:**
+```
+"I prioritize thoughtful replies over fast ones. I'll respond when I have the 
+context to give you a useful answer."
+```
+Then respond in your own time. Feishu does not show *when* someone read — only that they did. If challenged: "Read receipt doesn't tell you what I was doing when I read it."
+
+**Against Ding abuse:**
+- Track every Ding with a screenshot log — date, sender, content, actual urgency level
+- After 3+ non-urgent Dings: "I want to make sure I'm prioritizing correctly. Can we agree on what qualifies as Ding-level urgent?"
+- If pattern continues, raise it with your manager as a workflow issue, not an interpersonal one
+
+**Against group chat public shaming:**
+- Reply factually in the group (do not DM the accuser privately — it removes your public record):
+```
+"Thanks for raising this. The full context: [facts]. I'm happy to discuss 
+the details if needed."
+```
+- Immediately export the group chat thread to your personal storage
+
+**Against doc comment pile-ons:**
+- Feishu Docs stores full comment history — export as PDF immediately
+- Reply to comments with factual corrections, then resolve the thread yourself
+- Add a summary comment at the top of the doc: "Summary of discussion on [date]: [factual outcome]"
+
+**Against approval stalls:**
+- Send a follow-up message to the approver in writing: "My [approval name] has been pending since [date]. Can you confirm the timeline or let me know if you need more information?"
+- CC your manager on the follow-up message (in Feishu this creates a visible chain)
+- Document each follow-up with timestamps for HR if the stall is systematic
+
+**Against silent group removal:**
+- Screenshot the "X removed you from the group" system message immediately
+- Email your manager: "I noticed I was removed from [group name] on [date]. Was this intentional? I need access to [information] from that channel."
+
+**Evidence capture:**
+- Feishu: **Group chat > ··· > Export Chat Records** (if enabled by admin)
+- For Docs: **File > Export to PDF** preserves comments and revision history
+- For Approval records: export from the 审批 (Approval) module before any workflow is closed
+- Feishu admin can pull message logs even after deletion — request this via HR/IT formally
+
+---
+
+## Tactical Counterpunches (Scripts & Moves)
+
+These are reusable responses for the most common attack scenarios across any chat platform.
+
+---
+
+### The Receipt Reply
+**Use when:** Someone denies saying something, or claims you never delivered.
+```
+"I have our conversation from [date] here — [quote or screenshot].
+This shows [X]. Happy to walk through it together."
+```
+*Principle: Don't argue about facts. Present them neutrally and let them stand.*
+
+---
+
+### The Redirect-to-Record
+**Use when:** Being pressured in a DM or verbal conversation to agree to something disadvantageous.
+```
+"Let me make sure I capture this correctly. I'll send a summary email/message 
+after our chat so we're both aligned."
+```
+*Then send it immediately. This forces accountability and creates a timestamped record.*
+
+---
+
+### The Channel Upgrade
+**Use when:** Someone uses a private DM to say something that affects your work reputation.
+```
+"This seems relevant to the wider team — I'll share the update in #project-channel 
+so everyone has the context."
+```
+*Moving things public removes the ability to gaslight you privately. Do it professionally, not aggressively.*
+
+---
+
+### The Gray-Rock Text Response
+**Use when:** Someone sends a provocative, emotional, or manipulative message designed to get a reaction.
+```
+"Understood. I'll proceed with [task]."
+```
+or
+```
+"Thanks for the note. [One factual sentence]. Let me know if you need anything else."
+```
+*Give them nothing emotional to work with. Minimal, factual, closed.*
+
+---
+
+### The Time-Stamp Anchor
+**Use when:** Blame is being placed on you for a timeline that doesn't hold up.
+```
+"For clarity on timeline: I submitted [X] on [date] at [time] — here's the 
+record [link/screenshot]. The delay from [date] to [date] occurred in 
+[other person's/stage's] hands."
+```
+*Always anchor facts to timestamps. This neutralizes most blame-shifting.*
+
+---
+
+### The Witness Loop
+**Use when:** You're being pressured in a 1-on-1 meeting or DM with no record.
+```
+"I want to make sure I don't miss anything important from this conversation. 
+Would you mind if [colleague/manager] joined, or can I send a recap email afterward?"
+```
+*If they refuse a recap email, that refusal itself is informative. Document it.*
+
+---
+
+### The Calm Reframe
+**Use when:** Someone makes a public accusation or puts you on the spot in a group chat.
+```
+"That's a fair question. Here's the full picture: [2-3 sentences of facts].
+I'm happy to go deeper if it would help the team."
+```
+*Never match their emotional temperature. Your calm is your authority.*
+
+---
+
+### The Boundary Broadcast
+**Use when:** You're receiving after-hours messages or urgent pings outside agreed hours.
+```
+"I keep my [Slack/Teams/Feishu] notifications off after [time] so I can 
+recharge and focus during work hours. I'll pick this up at [time] tomorrow."
+```
+*State it as a personal work practice, not a complaint. Repeat it without apology.*
+
+---
+
+### The Pattern Memo
+**Use when:** You've had multiple incidents and need to prime HR or your manager.
+```
+Subject: Documentation of Ongoing Conduct Issues — [Name/Team]
+
+I want to document a pattern of behavior I've been experiencing that is 
+affecting my work. Below are specific incidents with dates and evidence.
+
+[Incident 1 — Date — Platform — Description — Evidence link/attachment]
+[Incident 2 — Date — Platform — Description — Evidence link/attachment]
+
+I'm sharing this now so there is an early record. I would like to discuss 
+next steps to prevent escalation.
+
+[Your name]
+```
+*Send to your personal email first with BCC to yourself for timestamp verification, then to HR.*
+
+---
+
+### Platform Evidence Cheat Sheet
+```
+SLACK
+  Save: Screenshot + right-click message > Copy Link
+  Export: Workspace Export (admin) or manual screenshots
+  Note: Edits/deletes by sender are possible — capture immediately
+
+TEAMS
+  Save: Screenshot + Teams stores in Exchange (IT can retrieve)
+  Export: IT/HR eDiscovery request
+  Note: Meeting recordings expire in 60 days — download early
+
+FEISHU / LARK
+  Save: Group chat Export + Doc PDF export
+  Approval records: Export from 审批 module
+  Note: Admin can pull deleted messages — request formally via HR
+```
 
 ---
 

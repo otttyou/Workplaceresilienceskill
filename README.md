@@ -8,8 +8,10 @@ A comprehensive guide to recognizing, understanding, and coping with workplace b
 1. [Cold Violence & Passive Aggression](#cold-violence--passive-aggression)
 2. [Eccentric Behaviors & Difficult Personalities](#eccentric-behaviors--difficult-personalities)
 3. [PUA (Manipulation) Tactics & Coping](#pua-manipulation-tactics--coping)
-4. [Strike Back Strategies](#strike-back-strategies)
-5. [Resources & Support](#resources--support)
+4. [Chat Platform Playbook (Slack, Teams, Feishu/Lark)](#chat-platform-playbook-slack-teams-feishulark)
+5. [Tactical Counterpunches](#tactical-counterpunches)
+6. [Strike Back Strategies](#strike-back-strategies)
+7. [Resources & Support](#resources--support)
 
 ---
 
@@ -282,6 +284,74 @@ RECOGNIZE → RESIST → RESPOND → RECOVER
 - Rebuild your confidence
 - Seek professional support
 - Plan your exit if necessary
+
+---
+
+## 💬 Chat Platform Playbook (Slack, Teams, Feishu/Lark)
+
+Modern bullying happens in chat. Each platform has unique attack vectors.
+
+### Slack
+| Attack | Counter |
+|---|---|
+| Public channel callout | Reply publicly with receipts in the same channel immediately |
+| Reaction pile-on (👀🤔) | Ignore reactions; reply only to substantive messages |
+| After-hours DM pressure | Use Scheduled Send; set a status message with your hours |
+| Channel removal | Follow up via email (not Slack) to create an off-platform record |
+| Thread burial | Summarize buried context in a top-level reply |
+
+### Microsoft Teams
+| Attack | Counter |
+|---|---|
+| Message edited after your reply | Screenshot immediately; note "(edited)" indicator in your reply |
+| Presence surveillance | "Status reflects focus mode, not availability" |
+| @team pile-on | Reply in the same thread with full context — never go silent |
+| Being muted in meetings | Post your point in meeting chat; follow up via email afterward |
+| Recording misuse | State recording-use boundaries at meeting start; request full file if clips used |
+
+### Feishu / Lark (飞书)
+| Attack | Counter |
+|---|---|
+| 已读 read-receipt pressure | Respond on your timeline; read ≠ available |
+| Ding abuse (urgent alerts) | Log each non-urgent Ding; raise as workflow issue with manager |
+| Group chat shaming | Reply factually in the group — do not retreat to DM |
+| Approval stall (审批) | Follow up in writing + CC manager on each follow-up |
+| Silent removal from group | Screenshot system message; escalate via email immediately |
+| OKR/doc manipulation | Export doc to PDF (with comments) regularly to preserve revision history |
+
+**Evidence Capture Quick Reference:**
+- **Slack**: Screenshot + right-click > Copy Link. Edits/deletes possible — capture immediately.
+- **Teams**: IT/HR eDiscovery can recover deleted messages. Download recordings before 60-day expiry.
+- **Feishu**: Group Export + Doc PDF export. Admin can retrieve deleted messages via formal HR request.
+
+---
+
+## 🥊 Tactical Counterpunches
+
+Reusable scripts for the most common attacks across any chat platform:
+
+| Situation | Script |
+|---|---|
+| **Denial of prior statement** | "I have our conversation from [date] here — [quote]. This shows [X]." |
+| **DM pressure to agree verbally** | "I'll send a summary after our chat so we're both aligned." → Send immediately |
+| **Private DM about public-facing issue** | "This is relevant to the team — I'll share context in #channel." |
+| **Provocative/emotional message** | "Understood. I'll proceed with [task]." (Gray-rock: no emotion) |
+| **Blame on timeline** | "I submitted X on [date] at [time] — record here [link]. Delay occurred in [other stage]." |
+| **Public callout in group** | "Fair question. Here's the full picture: [2–3 facts]. Happy to go deeper." |
+| **After-hours pings** | "Notifications off after [time]. I'll pick this up at [time] tomorrow." |
+| **1-on-1 with no record** | "Can I send a recap email after this?" (refusal itself is informative — document it) |
+
+**The Pattern Memo** — send to HR/manager when incidents accumulate:
+```
+Subject: Documentation of Ongoing Conduct Issues — [Name/Team]
+
+Documenting a pattern affecting my work. Specific incidents below.
+
+[Date] | [Platform] | [Description] | [Evidence attached]
+[Date] | [Platform] | [Description] | [Evidence attached]
+
+Sharing for early record. Would like to discuss next steps.
+```
 
 ---
 
