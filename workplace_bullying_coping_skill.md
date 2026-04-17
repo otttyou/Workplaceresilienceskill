@@ -8,12 +8,14 @@ This skill module provides comprehensive strategies for identifying, responding 
 ## Table of Contents
 1. [Understanding Workplace Bullying](#understanding-workplace-bullying)
 2. [Cold Violence Tactics](#cold-violence-tactics)
-3. [Eccentric Behaviors](#eccentric-behaviors)
-4. [PUA-Style Manipulation](#pua-style-manipulation)
-5. [General Coping Strategies](#general-coping-strategies)
-6. [Documentation & Evidence](#documentation--evidence)
-7. [When to Escalate](#when-to-escalate)
-8. [Self-Care & Recovery](#self-care--recovery)
+3. [Digital Chat Platform Tactics (Slack / Feishu / Teams)](#digital-chat-platform-tactics)
+4. [Eccentric Behaviors](#eccentric-behaviors)
+5. [PUA-Style Manipulation](#pua-style-manipulation)
+6. [Tactical Counterpunch Playbook](#tactical-counterpunch-playbook)
+7. [General Coping Strategies](#general-coping-strategies)
+8. [Documentation & Evidence](#documentation--evidence)
+9. [When to Escalate](#when-to-escalate)
+10. [Self-Care & Recovery](#self-care--recovery)
 
 ---
 
@@ -83,6 +85,145 @@ Keep a detailed log including:
 - Continue producing quality work
 - Stay visible in meetings and discussions
 - Avoid complaining to colleagues about the situation
+
+---
+
+## Digital Chat Platform Tactics
+
+### Why Chat Platforms Need Their Own Playbook
+Chat tools like Slack, Feishu/Lark, and Microsoft Teams have replaced much of workplace interaction. Hostile actors have adapted their tactics accordingly. The key insight: **digital platforms create evidence by default** — everything is timestamped and logged. Your job is to make that evidence work for you, not against you.
+
+---
+
+### Slack: Attack Patterns & Countermeasures
+
+#### Attack Patterns
+
+**Channel Ghosting**
+Your messages receive zero replies or reactions in a channel. Others posting the same type of content get immediate engagement. This is a coordinated ignore campaign, often tacitly led by a senior person.
+
+Counter:
+```
+Step 1: Screenshot the pattern (your unanswered message + active responses to others nearby)
+Step 2: Send a direct follow-up to the most relevant person:
+  "Hey [Name], wanted to make sure my message in #[channel] didn't get lost. 
+   Quick question: [restate question]. Happy to hop on a call if easier."
+Step 3: If still no response, escalate: forward to your manager with context.
+```
+
+**Selective @mention**
+Team gets `@channel` or `@here` regularly. When something involves you negatively or requires work from you, you're @mentioned specifically. When credit or recognition is given, your name is absent.
+
+Counter:
+- Note exact timestamps of omissions (screenshot the recognition message missing your name)
+- In the same thread, post your contribution factually:
+  > *"Happy to add context here — I led [X part] of this. [Colleague] handled [Y part]. Good team effort."*
+- Don't be emotional. Be accurate and visible.
+
+**Private Channel Exile**
+Decisions are made in a #leadership-only or informal #friends channel you're not in. You find out from meeting minutes or second-hand.
+
+Counter:
+- Email your manager: *"I noticed [Decision X] was made without my input despite my responsibility for [Y]. Can you help me understand the process and get me into the relevant channels?"*
+- Frame it as a process question, not a personal complaint — harder to dismiss.
+
+**DM Trap**
+Someone moves a contentious conversation to a private DM specifically to remove witnesses.
+
+Counter:
+- Respond in DM: *"This is a good conversation — let me bring in [Manager/Colleague] so we're all aligned."*
+- Alternatively, after the DM: post a public summary in the relevant channel: *"Following up on a conversation [Name] and I had — we agreed [X]. Sharing here for team visibility."*
+
+**Thread Burial**
+You post something important. Someone immediately starts a new unrelated top-level message, pushing yours off-screen.
+
+Counter:
+- Reply in your own thread to bump it: *"Bumping this for visibility — still looking for input on [question]."*
+- Then @mention the specific person you need: *"@[Name] — your input would be especially helpful here."*
+
+**Read-and-Ignore**
+Slack shows the person is active (green dot). Your DM shows "seen." Silence for hours.
+
+Counter:
+- After 4 hours: *"Following up on my message above — want to make sure it didn't get buried."*
+- After 24 hours: send the same question via email, referencing the Slack message by time.
+- Creates cross-platform paper trail. Makes the silence documented and visible.
+
+---
+
+### Feishu / Lark: Attack Patterns & Countermeasures
+
+#### Attack Patterns
+
+**Group Chat Exile**
+Project group chats are created without you. You discover them through meeting notes, or notice others referencing conversations you weren't part of.
+
+Counter:
+```
+Message the group admin directly + CC your manager:
+"Hi [Name], I noticed there's a [Project X] group chat I'm not part of. 
+Since I'm responsible for [deliverable], can you add me? 
+I want to make sure I don't miss anything relevant."
+```
+Forces them to either add you or explicitly refuse — both outcomes are documented.
+
+**Approval Chain Weaponization**
+Your approval requests (reimbursements, leave, project sign-offs) sit unactioned for days. Others' requests are processed same-day.
+
+Counter:
+```
+The 24-Hour Rule:
+- Hour 0: Submit approval request
+- Hour 24: Send Feishu message to approver + CC manager:
+  "Flagging that my [request type] submitted at [time] on [date] is still pending. 
+   Please let me know if you need any additional information to proceed."
+- Hour 48: Escalate to manager directly if still no action.
+```
+Make every delay visible. Delays become evidence of targeting only if documented.
+
+**Document Permission Lock**
+You're granted view-only access to shared documents while peers have editor access. This silently excludes you from collaborative decision-making.
+
+Counter:
+- Screenshot the permissions panel showing the disparity.
+- Raise it as a functional blocker: *"I notice I only have view access to [Document]. Since I'm responsible for [deliverable that requires editing], I need edit access. Can [Name] update permissions?"*
+- If refused or ignored, escalate to your manager as a work-blocking issue.
+
+**OKR Comment Ambush**
+Negative or misleading comments are added to your OKR/performance review close to the submission deadline, when you have limited time to respond.
+
+Counter:
+- Set a daily check-in for your OKR page during review periods.
+- If an ambush comment appears, respond immediately in the same thread with data:
+  > *"For context: [Metric X showed Y outcome]. [Link to evidence]. Happy to discuss further."*
+- Then immediately message your manager: *"A comment was added to my OKR review on [date]. I've responded with data in the thread — wanted to flag this for transparency."*
+
+**Meeting Link Omission**
+Meeting links are shared in a group chat you're not in. The calendar invite has the meeting but not the updated link. You join late, get refused entry, or miss it entirely — with plausible deniability for the organizer.
+
+Counter:
+- **Prevention**: After accepting any important calendar invite, immediately Feishu the organizer: *"Confirmed for [time]. Can you drop the meeting link here so I have it handy?"*
+- **Recovery**: If you miss it due to this: *"I didn't receive the updated meeting link — can someone share the recording and action items? I want to make sure I'm not blocking anything."*
+- Creates documented evidence that you tried.
+
+**Read Receipt Gaslighting**
+Feishu shows read receipts. The person has clearly read your message. They later claim "I never received it" or "I don't remember seeing that."
+
+Counter:
+- In the conversation: *"I can see from the read receipt that the message was opened at [time]. Let me resend in case the content was unclear: [restate message]."*
+- Don't accuse. State what the platform shows, matter-of-factly. Then move on.
+
+---
+
+### Microsoft Teams: Quick Countermeasures
+
+| Attack | Counterpunch |
+|--------|-------------|
+| Removed from a Teams channel | Email IT + manager: "I appear to have been removed from [Channel]. Can you confirm this was intentional?" |
+| Message marked read; later denied | Copy the message link; forward thread to email as documented follow-up |
+| Excluded from meeting in your own project | "@[Organizer] — I noticed I wasn't on the invite for [Meeting]. Can someone share the notes?" |
+| Important decision in a chat you weren't in | "Catching up — when was this decided? Happy to support, want to make sure I have full context." |
+| Your message deleted after you sent it | Immediately paste the content into an email to yourself with timestamp as backup |
 
 ---
 
@@ -215,6 +356,173 @@ When told "You're too sensitive":
 
 ---
 
+## Tactical Counterpunch Playbook
+
+These are deployable, word-for-word moves for specific hostile scenarios. Each is designed to be professional, calm, and evidence-creating. Practice these until they feel natural.
+
+---
+
+### Move 1: The Paper Trail Maneuver
+**When**: After any verbal or DM agreement you expect to be later denied.
+
+**Execute**:
+Within 30 minutes of the conversation, post publicly (channel or email):
+> *"Quick recap of what [Name] and I just discussed: [Decision A was made / Action item B is on [Name] / Action item C is on me]. Please flag if I've captured anything incorrectly."*
+
+**Why it works**: They must explicitly contradict your public record to dispute it. Most won't. If they do, their contradiction is also documented.
+
+---
+
+### Move 2: The Factual Mirror
+**When**: Someone makes a hostile, dismissive, or false statement about you in chat or in a meeting.
+
+**Execute**:
+> *"I want to make sure I understand — you're saying [restate their exact words]. Is that accurate?"*
+
+**Why it works**: Forces commitment. They either affirm the statement (now it's documented), soften it (reducing the attack), or deny it (revealing inconsistency). You said nothing aggressive; you asked for clarity.
+
+**Chat variant**:
+Quote their message using the platform's reply function, then write:
+> *"Just want to confirm I'm reading this correctly — are you saying [interpretation]? Happy to address whatever concern is here."*
+
+---
+
+### Move 3: The Precision Timestamp
+**When**: Gaslighting — "That never happened" / "I never said that" / "You misunderstood."
+
+**Execute**:
+> *"I have [the message / meeting notes / the email] from [Date] at [Time]. The exact text was: '[quote]'. I'm happy to share the link/screenshot."*
+
+**Critical rule**: Never argue about memory. Go to receipts within the same breath. Calm tone. Zero apology.
+
+**Follow-up if they persist**:
+> *"I understand you may recall it differently. I'd suggest we review the record together with [Manager / HR] to make sure we're aligned."*
+
+---
+
+### Move 4: The Channel Redirect
+**When**: Someone moves a contentious or important conversation to a private DM to remove witnesses.
+
+**Execute** (in the DM):
+> *"This is an important point — let me loop in [Manager/Colleague] so we're all on the same page."*
+
+Then add them to the thread.
+
+**Alternative** (after the DM, in the public channel):
+> *"Following up on my conversation with [Name] — we discussed [X] and agreed [Y]. Sharing here so the team has visibility."*
+
+**Why it works**: You're being transparent and collaborative. They lose the no-witness advantage.
+
+---
+
+### Move 5: The Redirect to Process
+**When**: Pressured to act improperly, skip steps, or do something via verbal instruction with no trail.
+
+**Execute**:
+> *"Happy to move on this quickly. To make sure we're following the right process, can you put the request through [official channel / approval workflow / Jira ticket]? I'll action it immediately once it's there."*
+
+**Why it works**: You're not refusing. You're protecting both parties. If they resist the paper trail, that resistance is itself the signal.
+
+---
+
+### Move 6: The Strategic Silence Break
+**When**: You've been systematically ignored in a channel — your messages receive no responses for a pattern of instances.
+
+**Execute**:
+Stop posting to the void. Send a targeted direct message:
+> *"Hi [Name], I've sent a few messages in #[channel] that seem to have gotten lost in the feed. I don't want to be a blocker — can you let me know [specific question]?"*
+
+**Escalation trigger**: If this message is also ignored, your next step is to forward the entire thread to your manager: *"I've tried [X] times to get clarity on [issue] in #[channel] — can you help unblock me?"*
+
+---
+
+### Move 7: The CC Cascade
+**When**: Information is being withheld from you and shared with peers; you need to make the gap visible without a direct confrontation.
+
+**Execute** (when you eventually receive information):
+> *"Thanks for the update — I want to make sure I stay in the loop from here. I've added [Manager] to this thread for visibility. Happy to join the relevant group chat as well."*
+
+**Why it works**: Reasonable. Collaborative. Puts the right people in the picture. Any future omissions now look intentional, not accidental.
+
+---
+
+### Move 8: The Boundary with Teeth
+**When**: Someone is consistently disrespectful, sarcastic, or publicly dismissive about you or your work.
+
+**Execute** (in writing, referencing the specific incident):
+> *"I want to flag that the comment '[exact quote]' in [channel/meeting] on [date] didn't feel respectful. I'd like our communication to stay professional. If there's a work concern, I'm happy to address it directly."*
+
+**Rules**:
+- Quote them exactly — no paraphrase
+- Specific date and location
+- No emotion words ("I felt hurt") — stick to behavior description
+- End with an open door (shows you're reasonable)
+
+**What happens next**: Most will back down privately. A few will escalate — their escalation becomes evidence. Either way, you've created a record.
+
+---
+
+### Move 9: The Volunteer Witness
+**When**: You anticipate a difficult 1:1 meeting where outcomes will likely be disputed.
+
+**Execute** (before the meeting, in writing):
+> *"Looking forward to our discussion at [time]. Would it be helpful to have [HR / trusted colleague] join? I find it useful to have a third person for alignment on action items."*
+
+**Outcomes**:
+- They agree → you have a witness
+- They refuse → that refusal is worth noting
+- Either way, send a detailed summary email within 30 minutes of the meeting ending
+
+---
+
+### Move 10: The Defuse and Document
+**When**: Someone has an outburst, says something inappropriate, or attacks you in a group setting.
+
+**Execute** (in the moment — calm, short):
+> *"I'd like to continue this conversation when we've both had a chance to reflect. I'll follow up in writing."*
+
+Then step back, don't engage further in the moment.
+
+**Execute** (immediately after, in writing):
+> *"Following up on our exchange in [meeting/channel] at [time]: [factual description of what was said]. I'd like to address [specific issue] professionally. Can we schedule time with [Manager/HR] to discuss?"*
+
+**Why it works**: You de-escalated publicly (looks good for you), documented privately (protects you), and moved it to a formal track (serious consequences for them).
+
+---
+
+### Counterpunch Decision Tree
+
+```
+Hostile event in chat/meeting
+        │
+        ▼
+Is it documented (chat message, email)?
+   Yes → Screenshot immediately. Permalink it.
+   No  → Write a contemporaneous note with exact words + timestamp.
+        │
+        ▼
+Is it a one-time incident or a pattern?
+   One-time → Boundary with Teeth (Move 8) directly to the person.
+   Pattern  → CC Cascade (Move 7) + notify manager.
+        │
+        ▼
+Is there a factual dispute ("I never said that")?
+   Yes → Precision Timestamp (Move 3). Go to receipts.
+   No  → Continue with selected move above.
+        │
+        ▼
+Are witnesses absent?
+   Yes → Channel Redirect (Move 4) or Volunteer Witness (Move 9).
+   No  → Proceed; witnesses will corroborate your record.
+        │
+        ▼
+Is information being withheld?
+   Yes → CC Cascade (Move 7) + direct documented request.
+   No  → Paper Trail Maneuver (Move 1) after every key discussion.
+```
+
+---
+
 ## General Coping Strategies
 
 ### Immediate Response Techniques
@@ -281,12 +589,15 @@ _________________________________
 ```
 
 ### Types of Evidence to Preserve
-- Emails and instant messages (screenshots + backups)
-- Meeting notes with dates and attendees
-- Performance reviews (especially sudden changes)
-- Witness statements (if willing)
+- **Slack**: Screenshots + "Copy link to message" permalink for every key message; export your DM history via Settings if allowed
+- **Feishu/Lark**: Screenshot group chat membership panels, document permission pages, approval history, and OKR comment threads
+- **Teams**: Screenshot channel membership, meeting attendance, and chat threads; use "Share to Outlook" to cross-post evidence to email
+- Emails and instant messages (screenshots + backups stored outside company systems)
+- Meeting notes with exact dates, attendees, and who said what
+- Performance reviews (especially sudden negative changes after incidents)
+- Witness statements (if willing to provide)
 - Medical records if stress-related health issues arise
-- Records of complaints filed and responses received
+- Records of every complaint filed and every response received
 
 ### Best Practices
 - Store documentation outside company systems (personal email, cloud storage)
