@@ -1,29 +1,31 @@
 # 🛡️ Workplace Resilience Skill
 
-A comprehensive guide to recognizing, understanding, and coping with workplace bullying across multiple challenging scenarios. This resource empowers professionals to maintain mental health, set boundaries, and build resilience in toxic work environments.
+A comprehensive guide to recognizing, understanding, and coping with workplace bullying across multiple challenging scenarios — including Slack, Feishu/Lark, Microsoft Teams, and other chat platforms. This resource empowers professionals to maintain mental health, set boundaries, and build resilience in toxic work environments.
 
 ---
 
 ## 📑 Table of Contents
 1. [Cold Violence & Passive Aggression](#cold-violence--passive-aggression)
-2. [Eccentric Behaviors & Difficult Personalities](#eccentric-behaviors--difficult-personalities)
-3. [PUA (Manipulation) Tactics & Coping](#pua-manipulation-tactics--coping)
-4. [Strike Back Strategies](#strike-back-strategies)
-5. [Resources & Support](#resources--support)
+2. [Digital Chat Battlegrounds (Slack / Feishu / Teams)](#digital-chat-battlegrounds)
+3. [Eccentric Behaviors & Difficult Personalities](#eccentric-behaviors--difficult-personalities)
+4. [PUA (Manipulation) Tactics & Coping](#pua-manipulation-tactics--coping)
+5. [Strike Back Strategies](#strike-back-strategies)
+6. [Tactical Counterpunch Playbook](#tactical-counterpunch-playbook)
+7. [Resources & Support](#resources--support)
 
 ---
 
 ## ❄️ Cold Violence & Passive Aggression
 
 **What is Cold Violence?**
-Cold violence refers to subtle, indirect forms of workplace bullying including silent treatment, deliberate exclusion, sarcasm, and passive-aggressive behavior.
+Cold violence refers to subtle, indirect forms of workplace bullying including silent treatment, deliberate exclusion, sarcasm, and passive-aggressive behavior — both in person and across digital chat channels.
 
 ### Recognition Tactics
-- **Silent Treatment**: Being ignored in meetings, emails left unanswered for extended periods
-- **Social Exclusion**: Excluded from team events, lunches, or important conversations
-- **Undermining Work**: Having your ideas dismissed, credit taken, or work sabotaged
-- **Sarcasm & Microaggressions**: Veiled insults hidden as "jokes"
-- **Deadline Traps**: Impossible deadlines or changing requirements mid-project
+- **Silent Treatment**: Being ignored in meetings, emails, Slack DMs, or Feishu messages left unanswered for extended periods while others get instant replies
+- **Social Exclusion**: Excluded from team events, lunches, group chats, or important channel conversations
+- **Undermining Work**: Having your ideas dismissed, credit taken, or your chat messages buried under others
+- **Sarcasm & Microaggressions**: Veiled insults hidden as "jokes" — including sarcastic emoji reactions (🙄, 😬) to your messages in group channels
+- **Deadline Traps**: Impossible deadlines or changing requirements mid-project, often announced in channels you weren't in
 
 ### Coping Strategies
 
@@ -76,6 +78,100 @@ Cold violence refers to subtle, indirect forms of workplace bullying including s
    - Therapy or counseling
    - Stress-reduction techniques (meditation, yoga)
    - Maintain hobbies outside work
+
+---
+
+## 💬 Digital Chat Battlegrounds
+
+**Why Chat Platforms Are a Unique Battlefield**
+Slack, Feishu/Lark, Microsoft Teams, and similar tools create new attack surfaces for workplace hostility. The asynchronous, semi-public, and archived nature of these platforms cuts both ways — they can be used against you, or turned into your strongest evidence base.
+
+---
+
+### Slack-Specific Attack Patterns
+
+| Tactic | What It Looks Like | What's Really Happening |
+|--------|-------------------|------------------------|
+| **Channel Ghosting** | You're in a channel but your messages get zero reactions or replies; others' identical messages get responses | Coordinated ignore campaign |
+| **Selective @mention** | Team gets @channel or @here; you're the one person named separately or not at all | Signaling you're not "one of us" |
+| **Private Channel Exile** | Key decisions happen in a #leadership-only or #core-team channel you weren't invited to | Power hoarding via information asymmetry |
+| **Thread Burial** | Your message is left unaddressed; someone posts a new top-level message immediately after to push yours down | Deliberate visibility suppression |
+| **Read-and-Ignore** | Your DM shows "seen" instantly; no reply for hours while the person is clearly active elsewhere | Power move: asserting you're not worth answering |
+| **Reaction Bombing** | Your serious proposal gets 👍 from your allies but 😬 or 🤔 pile-on from a clique | Group signaling without verbal accountability |
+| **Status Game** | Someone sets "Do Not Disturb" exactly when you DM them, but responds to others in shared channels | Targeted unavailability |
+| **DM Trap** | Moved to a private DM for a "sensitive" conversation that removes all witnesses | Setting you up for a he-said-she-said |
+
+#### Counterpunches for Slack
+
+1. **Channel Redirect Move**
+   - When pulled into a DM for something project-related: *"Happy to discuss — let me loop in the team so everyone's aligned. Moving to #project-channel."*
+   - Posts your response publicly; creates witnesses; shows you're collaborative, not defensive.
+
+2. **Thread Lock**
+   - Before replying to a loaded message, take a screenshot with timestamp, the sender's name, and channel visible.
+   - Use Slack's "Copy link to message" on your own message after posting — creates a permalink you own.
+
+3. **The Precision @mention**
+   - When excluded from a decision conversation: join the thread and @mention the decision-maker directly:
+     *"@[Name] — want to make sure I'm aligned on this. Can you confirm the direction here?"*
+   - Forces acknowledgment in a public, archived space.
+
+4. **Activity Exposure**
+   - When someone claims they "didn't see" your message but you saw their status as active: don't argue. Instead, follow up with an email referencing the Slack thread: *"Following up on my Slack message from [time] in #[channel] — [message content]. Please advise."*
+   - Now there's a cross-platform paper trail.
+
+5. **Emoji Neutralization**
+   - Respond to passive-aggressive reaction piles with a concise, factual reply: *"Happy to clarify any questions on this proposal — feel free to thread a reply."*
+   - Ignoring the emoji; opening the floor; signaling confidence.
+
+---
+
+### Feishu / Lark-Specific Attack Patterns
+
+| Tactic | What It Looks Like | What's Really Happening |
+|--------|-------------------|------------------------|
+| **Group Chat Exile** | Key project groups created without you; you find out from meeting minutes | Information gatekeeping |
+| **Approval Chain Sabotage** | Your approval requests sit untouched; others' get processed same-day | Power via bureaucratic delay |
+| **Document Permission Lock** | Shared docs are view-only for you, editable for peers | Excluding you from collaborative decision-making |
+| **OKR Comment Ambush** | Negative comments added to your OKR review close to deadline when you can't respond | Timed reputation attack |
+| **Moments Exclusion** | Company social circle posts about team wins that omit you despite your contribution | Soft erasure of credit |
+| **@All Carveout** | Message sent @all in a group chat, but a separate side-thread is started that excludes you for actual discussion | Two-tier communication |
+| **Meeting Link Omission** | Calendar invite is updated; link shared in a group chat you're not in; you join late or miss it | Plausible-deniability exclusion |
+| **Read Receipt Gaslighting** | You can see they read your message; they later claim "I never received it" | Exploiting platform ambiguity |
+
+#### Counterpunches for Feishu
+
+1. **The Group Chat Request**
+   - If excluded from project groups: message the group admin directly in Feishu and CC your manager: *"Hi [Name], could you add me to the [Project X] group? I want to make sure I'm not missing any updates relevant to my work."*
+   - Creates a documented request; makes exclusion visible.
+
+2. **Approval Escalation Protocol**
+   - When approvals stall: after 24 hours with no action, send a Feishu message to the approver AND CC your manager: *"Flagging that this approval has been pending since [date/time]. Please let me know if you need additional information to proceed."*
+   - Don't wait silently; make the delay visible.
+
+3. **Document the Permission State**
+   - Screenshot the document permissions panel showing you're view-only while others have edit access.
+   - Raise it as a practical blocker: *"I notice I only have view access to [Doc Name]. Since I'm responsible for [X deliverable], I'll need edit access — can [Name] update permissions?"*
+
+4. **OKR Defense Move**
+   - Check your OKR page daily in the final review week.
+   - If a surprise negative comment appears, respond within the same thread immediately with facts and data.
+   - Then message HR/your manager: *"A last-minute comment was added to my OKR review. I've responded with data in the thread, but wanted to flag this for context."*
+
+5. **Meeting Link Self-Insurance**
+   - For any meeting that matters: after accepting the calendar invite, message the organizer directly in Feishu: *"Confirmed for [time]. Please drop the meeting link here so I have it handy."*
+   - If they later omit you from the link update, you have a message where you proactively asked.
+
+---
+
+### Microsoft Teams / General Chat Countermeasures
+
+| Situation | Counterpunch |
+|-----------|-------------|
+| Removed from a Teams channel | Email IT/admin + your manager: "I appear to have been removed from [Channel]. Can you confirm this was intentional?" |
+| Message marked read; claim of "never saw it" | Forward the read-receipt data or message thread to email as follow-up |
+| Excluded from a meeting in your own project | "I noticed I wasn't on the invite for [Meeting]. Can someone share the notes? I want to stay aligned." |
+| Group decision made without you in chat | Post in the channel: "Just catching up — when was this decided? Happy to support, want to make sure I have the context." |
 
 ---
 
@@ -342,6 +438,141 @@ When nothing else works:
 - **Change roles**: Look for internal positions
 - **Escalate externally**: Government agencies, lawyers
 - **Exit strategically**: Plan your departure, secure references
+
+---
+
+## 🥊 Tactical Counterpunch Playbook
+
+These are specific, deployable moves for the most common hostile scenarios. Each is designed to be professional, defensible, and evidence-creating.
+
+---
+
+### Counterpunch 1: The Paper Trail Maneuver
+**Trigger**: A verbal or private-chat agreement that you expect someone to deny later.
+
+**Move**:
+After any verbal conversation or DM exchange where something important was agreed:
+> *"Quick recap of what we just discussed in #general / our call: [X was decided, Y is your action item, Z is my action item]. Let me know if I've captured this incorrectly."*
+
+Post it in the public channel or send it via email. Now the record exists and they must explicitly contradict it to dispute it.
+
+---
+
+### Counterpunch 2: The Witness Weave
+**Trigger**: Someone is escalating conflict or making unreasonable demands in a private DM.
+
+**Move**:
+Don't argue in the DM. Say:
+> *"This feels important enough to get the team's input on. Let me bring [Manager/Colleague] into the conversation."*
+
+Then add them to the thread or forward the exchange. The moment a witness enters, toxic behavior usually stops — and if it doesn't, it's now witnessed.
+
+---
+
+### Counterpunch 3: The Factual Mirror
+**Trigger**: Someone makes a hostile, dismissive, or loaded statement about you in chat or in a meeting.
+
+**Move**:
+Don't defend or apologize. Reflect their words back factually:
+> *"I want to make sure I understand — you're saying [restate their claim exactly]. Is that correct?"*
+
+Forces them to commit to the statement or walk it back. Either outcome works for you. In writing, their response creates a record.
+
+---
+
+### Counterpunch 4: The Precision Timestamp
+**Trigger**: Gaslighting — "I never said that" / "That never happened" / "You misunderstood."
+
+**Move**:
+> *"I have the message from [Date] at [Time] in #[channel] / our chat. Here's the exact text: [quote]. Happy to share the link/screenshot."*
+
+Never argue about memory. Go to receipts immediately. Calm, factual, devastating.
+
+---
+
+### Counterpunch 5: The Redirect to Process
+**Trigger**: Someone is pressuring you to act improperly, cut corners, or do something verbally with no paper trail.
+
+**Move**:
+> *"Happy to move on this. To make sure we're following the right process, can you send the request through [Jira / approval workflow / official channel] so we have a clear record? I'll action it right away once it's there."*
+
+You're not refusing. You're insisting on process. If they resist documenting it, that resistance is the evidence.
+
+---
+
+### Counterpunch 6: The Strategic Silence Break
+**Trigger**: You've been systematically ignored in a channel — your messages get no responses.
+
+**Move**:
+Don't keep posting to the void. Send a direct, polite, documented request:
+> *"Hi [Name], I've sent a few messages in #[channel] that seem to have gotten lost. I want to make sure I'm not blocking the team. Can you let me know if [question/update]?"*
+
+Logs that you tried. If ignored again, your next message is to your manager with the thread attached.
+
+---
+
+### Counterpunch 7: The CC Cascade
+**Trigger**: Important information is being withheld from you but shared with peers, and you need to make the gap visible.
+
+**Move**:
+Reply to the first communication you do receive (however late) and CC your manager and/or the broader team:
+> *"Thanks for the update — I want to make sure I stay in the loop on [Project] from here. I've added [Manager] to this thread for visibility. Happy to join the relevant group chat/channel too."*
+
+Polite. Reasonable. Puts the right people in the picture.
+
+---
+
+### Counterpunch 8: The Boundary with Teeth
+**Trigger**: Someone is consistently disrespectful, sarcastic, or dismissive in chat or meetings.
+
+**Move** (in writing, after the incident):
+> *"I want to flag that the comment '[exact quote]' in [channel/meeting] on [date] felt disrespectful. I'd like our communication to stay professional. If there's a work concern, I'm happy to address it directly."*
+
+No emotion. Specific quote. Specific ask. Send via chat or email so it's documented. If they react badly, that reaction is also documentation.
+
+---
+
+### Counterpunch 9: The Volunteer Witness
+**Trigger**: You anticipate a difficult 1:1 meeting where outcomes may be disputed.
+
+**Move** (before the meeting):
+> *"Before our meeting, I wanted to check — would it be useful to have [trusted colleague / HR] join? I find it helpful to have a third perspective for alignment."*
+
+If they say yes, you have a witness. If they say no, that itself is notable. After the meeting, send a summary email regardless.
+
+---
+
+### Counterpunch 10: The Exit Paper Trail
+**Trigger**: Things have escalated to the point where you're considering HR escalation or eventual departure.
+
+**Move**:
+Start a personal incident log (outside company systems) and capture every event:
+```
+Date/Time: [timestamp]
+Platform: [Slack / Feishu / email / in-person]
+Who: [names]
+What happened: [exact quotes, screenshots linked]
+Witnesses: [names if any]
+My response: [what you said/did]
+Impact: [how it affected your work]
+```
+
+Run this log in parallel with normal work. When the moment comes to escalate, you walk into HR with a dossier — not a feeling.
+
+---
+
+### Quick Counterpunch Reference Table
+
+| Situation | Counterpunch | Medium |
+|-----------|-------------|--------|
+| Denied something in chat that was agreed | Factual Mirror + Timestamp | Chat thread → Email |
+| Excluded from channel/group | CC Cascade + Direct Request | Email/Chat @manager |
+| Approval blocked | Escalation Protocol (24h rule) | Chat @approver + CC manager |
+| Hostile comment in group chat | Boundary with Teeth | Direct message + Email record |
+| DM pressure to do something shady | Redirect to Process | Chat (insist on official channel) |
+| Being systematically ignored | Strategic Silence Break | Direct message → Escalation |
+| Verbal agreement you expect to be denied | Paper Trail Maneuver | Public channel or email within the hour |
+| 1:1 meeting with no witnesses | Volunteer Witness + Post-meeting summary | Email within 30 min of meeting |
 
 ---
 
